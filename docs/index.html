@@ -1,0 +1,43 @@
+<!DOCTYPE html> <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">      <title>Mustache RSS Templates</title>   <style>     body {       font-size: 16px;       line-height: 24px;       background: #fff url("bg.png");       color: #252519;       font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;       padding: 0 0 50px 50px;     }     div.container {       width: 720px;       margin: 50px 0 50px 50px;     }     p {       width: 550px;     }       #documentation p {         margin-bottom: 4px;       }     a, a:visited {       padding: 0 2px;       text-decoration: none;       background: #dbe6f3;       color: #3f6fa5;     }     a:active, a:hover {       color: #dbe6f3;       background: #3f6fa5;     }     h1, h2, h3, h4, h5, h6 {       margin-top: 40px;       width: 550px;       line-height: 1.25em;     }     b.header {       font-size: 18px;     }     span.alias {       font-size: 14px;       font-style: italic;       margin-left: 20px;     }     table, tr, td {       margin: 0; padding: 0;     }       td {         padding: 2px 12px 2px 0;       }     ul {       list-style-type: circle;       padding: 0 0 0 20px;     }       li {         width: 500px;         margin-bottom: 10px;       }     code, pre, tt {       font-family: Monaco, Consolas, "Lucida Console", monospace;       font-size: 12px;       line-height: 18px;       color: #555529;     }       pre {         font-size: 12px;         padding: 2px 0 2px 12px;         border-left: 6px solid #aaaa99;         margin: 0px 0 30px;       }   </style> </head> <body>   <h1>Mustache RSS Templates</h1>        <em>Atom and RSS 2.0 templates for Mustache</em> 
+
+<p>Mustache templates for RSS 2.0 and Atom feeds.</p>
+
+<p><a href="https://github.com/ajacksified/Mustache-RSS-Templates">View the project on Github</a></p>
+
+<p><a href="https://ajacksified.github.com/Mustache-RSS-Templates">View the documentation</a></p>
+
+<h2>Expected Input</h2>
+
+<p>Here's what the template expects:</p>
+
+<pre><code>{
+  Feed: { 
+    Title: "Derp News",
+    Link: "http://blog.derpinc.com",
+    Language: "en",
+    CopyrightInfo: "Copyright 2011 Derp Inc.",
+    PubDate: "Thu, 20 Oct 2011 20:38:06 PST",
+    LastBuildDate: "Thu, 20 Oct 2011 20:38:03 PST",
+
+    Items: [
+      {
+        Title: "2nd Post",
+        Description: "This is my blog content, or maybe just a snippet. Whatevs",
+        Link: "http://blog.derpinc.com/2nd-post",
+        GUID: "",
+        PubDate: "Thu, 20 Oct 2011 20:35:15 PST"
+      },
+      {
+        Title: "1st Post",
+        Description: "This is my blog content, or maybe just a snippet. Whatevs",
+        Link: "http://blog.derpinc.com/1st-post",
+        GUID: "",
+        PubDate: "Tue, 18 Oct 2011 19:38:03 PST"
+      }
+    ]
+  }
+}</code></pre>
+
+<h2>License</h2>
+
+<p><a href="http://sam.zoy.org/wtfpl/COPYING">WTFPL</a></p> </body> </html>
