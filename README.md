@@ -13,6 +13,7 @@ Here's what the template expects:
     {
       Feed: { 
         Title: "Derp News",
+        Subtitle: "All the news you need to Herp",
         Link: "http://blog.derpinc.com",
         Language: "en",
         CopyrightInfo: "Copyright 2011 Derp Inc.",
@@ -37,6 +38,11 @@ Here's what the template expects:
         ]
       }
     }
+
+Subtitle is optional. If an atom feed, date should be 
+[RFC-3339](http://www.ietf.org/rfc/rfc3339.txt). If an rss 2.0 feed, date 
+should be [RFC-882](http://www.ietf.org/rfc/rfc0822.txt). Feed tested as valid
+with the [W3C Feed Validation Service](http://validator.w3.org/feed/). 
 
 License
 -------
