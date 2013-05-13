@@ -46,5 +46,6 @@ with the [W3C Feed Validation Service](http://validator.w3.org/feed/).
 
 License
 -------
-[WTFPL](http://sam.zoy.org/wtfpl/COPYING)
+
+Copyright (c) 2013 Jack Lawson. MIT Licensed. See LICENSE.md file for details.
 
